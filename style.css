@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+dialog {
+    margin: auto;
+    background-image: url(bookpage.jpg);
+    font-weight: bolder;
+}
+body{
+    background-color: #786b6b;
+}
+form {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    padding: 10px;
+    margin: 20px 40px;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.displayBooks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Books {
+    width: 300px;
+    height:500px;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px black;
+    background-color: rgba(137, 79, 13, 0.715);
+}
+
+p,h2,h3{
+margin: 10px;
+}
+
+h2{
+    font-size: xx-large ;
+}
+
+h3{
+    font-size: x-large;
+}
+p{
+    font-size: large;
+}
+button{
+    width:100px;
+    height:40px;
+    font-weight: bolder;
+    border-radius: 5%;
+}
+
+input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+}
